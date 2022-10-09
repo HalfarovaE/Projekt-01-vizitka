@@ -1,3 +1,68 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {background-color: rgb(245, 226, 205);
+    margin: 0;
+}
+    
+header {text-align: center;
+color:rgb(40, 37, 228);
+font-size: 36px;
+background-color:rgb(167, 177, 233);
+padding: 20px;
+}
+
+section {margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 20px;}
+
+footer{background-color:rgb(167, 177, 233) ;
+color:rgb(40, 37, 228)  ;
+font-size: 24px;
+font-style: bold;
+text-align: center;
+padding: 20px;}
+
+h1,
+h2 {
+    color: black;
+}
+
+p,
+ol {line-height: 2;}
+
+h1{text-align: center;
+}
+
+img {width:32%;}
+
+.MountRundle {
+float: right;
+width: 300px;
+padding: 0;
+margin-left: 10px;
+border-radius: 15%;}
+
+.Znaceni {width: 260px;
+float: left;
+padding-right: 15px;
+border-radius: 17%;}
+
+.pesituristika {clear: both;
+    overflow: auto;
+margin-top: 10px;}
+
+
+
+.fotky {overflow: auto;
+}
+
+.kontakt {
+    text-align: center;
+}
+
+a {text-decoration: none;
+color:blue}
+
+
